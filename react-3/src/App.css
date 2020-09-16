@@ -52,8 +52,14 @@ header{
   background-color: rgb(69, 165, 249);
   color: white;
   border: none;
-  border-radius: 20%;
+  border-radius: 25%;
   font-size: large;
+}
+
+.edn-display{
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
 }
 
 .prev-next{

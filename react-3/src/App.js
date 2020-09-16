@@ -67,7 +67,7 @@ export default class App extends Component {
             <section className="buttons">
               <button onClick={this.slideBackward} className="prev-next" id="prev">  <span role="img" aria-label="left arrow">⬅️ </span>Previous</button>
               
-              <span>
+              <span className="edn-display">
                 <button className="edn-styling">Edit</button>
                 <button className="edn-styling">Delete</button>
                 <button className="edn-styling">New</button>
